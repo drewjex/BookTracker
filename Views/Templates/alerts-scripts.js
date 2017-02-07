@@ -1,0 +1,1 @@
+$('#datatable-responsive').DataTable({"order": [[0, "desc"]]});

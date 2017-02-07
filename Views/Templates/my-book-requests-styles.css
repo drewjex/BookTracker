@@ -1,0 +1,43 @@
+.responsive .head-text {
+    display:none;
+}
+
+@media screen and (max-width: 762px) { /*990px*/         
+    .responsive td {
+        display:block;
+        border-top:0px !important;
+        padding:5px !important;
+    }
+    
+    .responsive .head-text {
+        display:inline-block;
+        font-weight:bold;
+    }
+    
+    .responsive th {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    #view_posted_books {
+        margin-top:10px;
+    }
+}
+
+hr {
+    margin-top:0px !important;   
+    margin-bottom:0px !important;
+}
+
+.btn-success.btn-xs {
+    background: #26B99A !important;
+    border: 1px solid #169F85;
+    cursor: default !important;
+}
+
+.btn-danger.btn-xs.cancelled {
+    background: #d9534f !important;
+    border: 1px solid #ac2925;;
+    cursor: default !important;
+}

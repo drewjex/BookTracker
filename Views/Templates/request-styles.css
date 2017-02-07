@@ -1,0 +1,106 @@
+.time-checked {
+    float:right;
+    width:45%;
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+.checklist-text {
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden; /* for making the full title */
+    white-space: nowrap;
+    width: 45%;
+    margin-bottom:-3px;
+}
+
+.icheckbox_flat-green {
+    float: left;
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 840px) { /*990px 936px*/
+    .time-checked {
+        float:none;
+        width:100%;
+        margin-top: 10px;
+        margin-right: -5px;
+    }
+    
+    ul.to_do li {
+        min-height: 85px;
+    }
+    .checklist-text {
+        display: inline-block;
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .instruction-label {
+        margin-right:25px;
+    }
+}
+
+.select2-container {
+    width:100% !important;
+    max-width:300px;
+}
+
+.small-button {
+    padding: 5px !important;
+    padding-top:0px !important;
+    padding-bottom: 0px !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small-padding td {
+    padding: 3px !important;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 50%;
+    left: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    /*display: none;*/
+    z-index:9999;
+}
+
+hr {
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+    height: 2px;
+    color: #f3f3f3; /* old IE */
+    background-color: #e3e3e3; /* Modern Browsers */
+}
+
+.mustwrap td a {
+    word-wrap: break-word !important;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word !important;  
+    width: 50%;
+}
+
+.mustwrap td {
+    max-width:200px;
+}
+
+/*.x_title h2 {
+    max-width:80%;
+}*/
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.disabledclick {
+    pointer-events: none;
+}
