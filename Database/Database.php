@@ -5,9 +5,9 @@ class Database {
     public static $conn;
 
     const hostname = "localhost";
-    const dbname = "booktrackerdb"; 
-    const username = "btrackerdbadmin";
-    const password = "btrackerdbadmin208";
+    const dbname = "***"; 
+    const username = "***";
+    const password = "***";
     
     private function getDB() {
 
